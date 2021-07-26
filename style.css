@@ -1,0 +1,53 @@
+body{
+    background-color: #370617;
+}
+nav{
+    color: snow;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    background-color: #03071e;
+}
+main{
+    height: 100vh;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ff474e;
+   
+}
+h2{
+    letter-spacing: 2px;
+   color: orange; 
+   text-shadow: 0 -2px 3px yellow,0 2px 8px #4a0000;
+}
+main h1{
+    color: rgba(255, 255, 0, 0.931);
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 5px 1px black;
+    font-weight: 600;
+}
+main h1:hover{
+    color: rgba(255, 255, 0, 0.931);
+    text-shadow: 0 10px 1px brown;
+}
+main h3{
+    color: #800f2f;
+    text-shadow: 0 1px 1px pink;
+}
+main div:nth-of-type(2) img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+box-shadow: 0 10px 5px gray,0 20px 5px black,0 30px 10px yellow,0 -2px 7px yellow;
+}
+.reddit{
+    height: 50px;
+    width: 50px;
+}
+i{
+    font-size: 50px;
+    text-shadow: 0 1px 1px black;
+}
+i:hover{
+    text-shadow: 0 2px 2px black;
+    cursor: pointer;
+}
